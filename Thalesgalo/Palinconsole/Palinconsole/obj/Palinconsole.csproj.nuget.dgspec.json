@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Palinconsole\\Palinconsole.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj",
+        "projectName": "BliblioPalin",
+        "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj",
+        "packagesPath": "D:\\Users\\CostaTh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\CostaTh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Palinconsole\\Palinconsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Palinconsole\\Palinconsole.csproj",
+        "projectName": "Palinconsole",
+        "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Palinconsole\\Palinconsole.csproj",
+        "packagesPath": "D:\\Users\\CostaTh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Palinconsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\CostaTh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj": {
+                "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj"
+              },
+              "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\Teste.csproj": {
+                "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\Teste.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\Teste.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\Teste.csproj",
+        "projectName": "Teste",
+        "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\Teste.csproj",
+        "packagesPath": "D:\\Users\\CostaTh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\Teste\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\CostaTh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

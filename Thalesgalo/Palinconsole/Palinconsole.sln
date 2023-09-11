@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palinconsole", "Palinconsole\Palinconsole.csproj", "{4246ADBA-D8A1-4B31-9708-92275A982E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BliblioPalin", "BliblioPalin\BliblioPalin.csproj", "{6A47003F-8EE2-4D08-A2B9-F7731E19B6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{0B388A67-613C-49E1-80E5-4E7D4F1F6C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4246ADBA-D8A1-4B31-9708-92275A982E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4246ADBA-D8A1-4B31-9708-92275A982E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4246ADBA-D8A1-4B31-9708-92275A982E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4246ADBA-D8A1-4B31-9708-92275A982E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A47003F-8EE2-4D08-A2B9-F7731E19B6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A47003F-8EE2-4D08-A2B9-F7731E19B6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A47003F-8EE2-4D08-A2B9-F7731E19B6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A47003F-8EE2-4D08-A2B9-F7731E19B6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B388A67-613C-49E1-80E5-4E7D4F1F6C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B388A67-613C-49E1-80E5-4E7D4F1F6C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B388A67-613C-49E1-80E5-4E7D4F1F6C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B388A67-613C-49E1-80E5-4E7D4F1F6C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E66ACB-D601-42A9-9C73-CE304DF1CC6C}
+	EndGlobalSection
+EndGlobal
