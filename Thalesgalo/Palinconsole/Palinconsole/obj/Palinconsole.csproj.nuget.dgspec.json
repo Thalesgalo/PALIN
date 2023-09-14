@@ -144,7 +144,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj": {
+                "projectPath": "D:\\GitHubRepos\\PALIN\\Thalesgalo\\Palinconsole\\BliblioPalin\\BliblioPalin.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

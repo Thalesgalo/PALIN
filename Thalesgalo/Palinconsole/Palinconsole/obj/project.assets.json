@@ -1801,6 +1801,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BliblioPalin": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "xunit": "2.4.1"
         },
