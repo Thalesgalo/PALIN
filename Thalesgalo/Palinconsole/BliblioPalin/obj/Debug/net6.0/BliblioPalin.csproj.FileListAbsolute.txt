@@ -9,3 +9,4 @@ D:\GitHubRepos\PALIN\Thalesgalo\Palinconsole\BliblioPalin\obj\Debug\net6.0\Blibl
 D:\GitHubRepos\PALIN\Thalesgalo\Palinconsole\BliblioPalin\obj\Debug\net6.0\refint\BliblioPalin.dll
 D:\GitHubRepos\PALIN\Thalesgalo\Palinconsole\BliblioPalin\obj\Debug\net6.0\BliblioPalin.pdb
 D:\GitHubRepos\PALIN\Thalesgalo\Palinconsole\BliblioPalin\obj\Debug\net6.0\ref\BliblioPalin.dll
+D:\GitHubRepos\PALIN\Thalesgalo\Palinconsole\BliblioPalin\obj\Debug\net6.0\BliblioPalin.csproj.AssemblyReference.cache

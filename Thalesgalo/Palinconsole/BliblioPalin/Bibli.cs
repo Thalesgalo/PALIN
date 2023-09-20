@@ -1,18 +1,18 @@
 ﻿using System.Numerics;
+using System.Collections.Generic;
 
 namespace BliblioPalin
 {
     public static class Calculo
     {
-        public static bool VerficaPalindromo(string numero)
+        public static bool VerificaPalindromo(string s)
         {
-            string numeroStr = numero.ToString();
             int left = 0;
-            int right = numeroStr.Length - 1;
+            int right = s.Length - 1;
 
             while (left < right)
             {
-                if (numeroStr[left] != numeroStr[right])
+                if (s[left] != s[right])
                 {
                     return false;
                 }
@@ -22,21 +22,19 @@ namespace BliblioPalin
             return true;
         }
 
-        public static string EncontraPalindromo(string n)
+        public static string EncontraProximoPalindromo(string input)
         {
-            BigInteger K = BigInteger.Parse(n);
+            BigInteger K = BigInteger.Parse(input);
 
             while (true)
             {
                 K++;
-                string StringK = K.ToString();
-                if (VerficaPalindromo(StringK))
+                string strK = K.ToString();
+                if (VerificaPalindromo(strK))
                 {
-                    return StringK; 
+                    return strK;
                 }
             }
         }
-
-
     }
 }
