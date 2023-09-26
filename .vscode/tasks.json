@@ -15,10 +15,10 @@
             "command": "reportgenerator",
             "type": "process",
             "args": [
-                "-reports:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coverage.opencover.xml\"",
-                "-targetdir:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragereport\"",
+                "-reports:\"${workspaceFolder}\\Thalesgalo\\Teste\\coverage.opencover.xml\"",
+                "-targetdir:\"${workspaceFolder}\\Thalesgalo\\Teste\\coveragereport\"",
                 "-reporttypes:Html",
-                "-historydir:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragehistory\"",
+                "-historydir:\"${workspaceFolder}\\Thalesgalo\\Teste\\coveragehistory\"",
                 "-Title:\"PALIN - Test report\"",
             ],
             "problemMatcher": "$msCompile"
@@ -41,7 +41,7 @@
             },
             "args": [
                 "msedge",
-                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragereport\\index.html"
+                "${workspaceFolder}\\Thalesgalo\\Teste\\coveragereport\\index.html"
             ],
             "problemMatcher": []
         },
@@ -104,12 +104,12 @@
             "type": "process",
             "args": [
                 "test",
-                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\Teste.csproj",
+                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste.csproj",
                 "-v:Minimal",
                 "-c:Debug",
                 "-p:CollectCoverage=true",
                 "-p:CoverletOutputFormat=opencover",
-                "-p:CoverletOutput=${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coverage.opencover.xml"
+                "-p:CoverletOutput=${workspaceFolder}\\Thalesgalo\\Teste\\coverage.opencover.xml"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -133,7 +133,7 @@
                 "--open-report"
             ],
             "options": {
-                "cwd": "${workspaceFolder}\\Thalesgalo\\Teste\\Teste"
+                "cwd": "${workspaceFolder}\\Thalesgalo\\Teste"
             },
             "problemMatcher": "$msCompile"
         }

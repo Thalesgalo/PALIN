@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2023-09-26_10-30-47" tag="">
+  <assembly name="BiblioPalin">
+    <class name="BiblioPalin.Calculo" coveredlines="27" coverablelines="27" totallines="47" coveredbranches="10" totalbranches="10" coveredcodeelements="2" totalcodeelements="2" />
+  </assembly>
+</coverage>

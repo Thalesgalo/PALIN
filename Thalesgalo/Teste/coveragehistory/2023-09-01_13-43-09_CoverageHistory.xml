@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2023-09-01_13-43-09" tag="">
+  <assembly name="BiblioPalin">
+    <class name="BiblioPalin.Calculo" coveredlines="27" coverablelines="27" totallines="41" coveredbranches="10" totalbranches="10" coveredcodeelements="2" totalcodeelements="2" />
+  </assembly>
+  <assembly name="ConsoleApp">
+    <class name="ProgramaConsole.Program" coveredlines="0" coverablelines="32" totallines="58" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="1" />
+  </assembly>
+</coverage>

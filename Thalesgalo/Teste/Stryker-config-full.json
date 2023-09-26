@@ -13,14 +13,14 @@
         "language-version": "Csharp10",
         "mutate": [],
         "mutation-level": "Complete",
-        "project": "BiblioPalin.csproj",
+        "project": "BliblioPalin.csproj",
         "report-file-name": "stryker-report.html",
         "reporters": [
             "progress",
             "html",
             "cleartext"
         ],
-        "solution": "..\\..\\Palinconsole.sln",
+        "solution": "..\\Palinconsole.sln",
         "target-framework": "net6.0",
         "test-case-filter": "",
         "test-projects": [
