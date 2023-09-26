@@ -1,0 +1,142 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "[PALIN] Generate Tests Report",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "reportgenerator",
+            "type": "process",
+            "args": [
+                "-reports:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coverage.opencover.xml\"",
+                "-targetdir:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragereport\"",
+                "-reporttypes:Html",
+                "-historydir:\"${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragehistory\"",
+                "-Title:\"PALIN - Test report\"",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "[PALIN] Open Tests Report",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "start",
+            "type": "shell",
+            "windows": {
+                "command": "start"
+            },
+            "args": [
+                "msedge",
+                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coveragereport\\index.html"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "[PALIN.Teste] Build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste.csproj",
+                "-c:Debug",
+                "-property:GenerateFullPaths=true",
+                "-consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "[PALIN] Build, Test, Generate and Open Report",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "echo Finished task \"[PALIN] Build, Test, Generate and Open Report\"",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "[PALIN.Teste] Build",
+                "[PALIN] Run Tests",
+                "[PALIN] Generate Tests Report",
+                "[PALIN] Open Tests Report"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "[PALIN] Run Tests",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\Teste.csproj",
+                "-v:Minimal",
+                "-c:Debug",
+                "-p:CollectCoverage=true",
+                "-p:CoverletOutputFormat=opencover",
+                "-p:CoverletOutput=${workspaceFolder}\\Thalesgalo\\Teste\\Teste\\coverage.opencover.xml"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "[PALIN] Run full Stryker.NET Mutation testing",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "stryker",
+                "--config-file",
+                "stryker-config-full.json",
+                "--open-report"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\Thalesgalo\\Teste\\Teste"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ],
+    "inputs": []
+}

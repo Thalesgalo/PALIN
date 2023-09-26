@@ -13,7 +13,7 @@
         "language-version": "Csharp10",
         "mutate": [],
         "mutation-level": "Complete",
-        "project": "Bibliopalin.csproj",
+        "project": "BiblioPalin.csproj",
         "report-file-name": "stryker-report.html",
         "reporters": [
             "progress",
